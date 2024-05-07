@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <title>Lucky Auto Service</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <!-- <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description"> -->
+
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -36,13 +35,6 @@
             cursor: pointer; /* Changes cursor to pointer type */
         }
 
-        /* Adding a custom arrow indicator */
-        /* .form-control.styled-select {
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 4 5"><path fill="black" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-            background-size: 12px;
-        } */
 
         /* Style for the option elements */
         /* Note: Direct styling of option elements is limited and might not work consistently across all browsers. */
@@ -145,10 +137,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Service</a>
-                            <!-- <a href="/price" class="nav-item nav-link">Price</a> -->
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="#" class="nav-item nav-link">About</a>
+                            <a href="#" class="nav-item nav-link">Service</a>
+                            <a href="#" class="nav-item nav-link">Contact</a>
                         </div>
                         
                         @if(Route::has('login'))
