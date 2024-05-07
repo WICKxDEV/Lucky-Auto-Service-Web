@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Muthugala Auto Service</title>
+        <title>Lucky Auto Service</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <!-- <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description"> -->
@@ -86,7 +86,7 @@
                     <div class="">
                         <div class="logo">
                             <a href="/">
-                                <h1 style=" line-height: 100px; font-weight: 1000; letter-spacing: -1px;  font-family: Arial, sans-serif; font-size: 27px;">Muthugala <span>Auto Service</span></h1>
+                                <h1 style=" line-height: 100px; font-weight: 1000; letter-spacing: -1px;  font-family: Arial, sans-serif; font-size: 27px;">Lucky <span>Auto Service</span></h1>
                             </a>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Call Us</h3>
-                                        <p>+012 345 6789</p>
+                                        <p>0375566777</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@example.com</p>
+                                        <p>luckauto@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,17 +147,7 @@
                             <a href="/" class="nav-item nav-link active">Home</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
                             <a href="service.html" class="nav-item nav-link">Service</a>
-                            <!-- <a href="/price" class="nav-item nav-link">Price</a>
-                            <a href="location.html" class="nav-item nav-link">Washing Points</a> -->
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu">
-                                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                    <a href="single.html" class="dropdown-item">Detail Page</a>
-                                    <a href="team.html" class="dropdown-item">Team Member</a>
-                                    <a href="booking.html" class="dropdown-item">Schedule Booking</a>
-                                </div>
-                            </div>
+                            <!-- <a href="/price" class="nav-item nav-link">Price</a> -->
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                         
@@ -204,9 +194,8 @@
                             <h3>Washing & Detailing</h3>
                             <h1>Keep your Car Newer</h1>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac
+                                Clean and maintain the exterior of your vehicle to keep it looking new.
                             </p>
-                            <a class="btn btn-custom" href="">Explore More</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -217,9 +206,8 @@
                             <h3>Washing & Detailing</h3>
                             <h1>Quality service for you</h1>
                             <p>
-                                Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis orci sodales
+                                Premium car care with attention to detail for optimal vehicle maintenance.
                             </p>
-                            <a class="btn btn-custom" href="">Explore More</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -230,9 +218,8 @@
                             <h3>Washing & Detailing</h3>
                             <h1>Exterior & Interior Washing</h1>
                             <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam
+                                Comprehensive cleaning services to enhance both the exterior and interior of your car.
                             </p>
-                            <a class="btn btn-custom" href="">Explore More</a>
                         </div>
                     </div>
                 </div>
@@ -257,7 +244,7 @@
                         </div>
                         <div class="about-content">
                             <p>
-                                Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum
+                            Focus on highlighting your dedication to quality and customer satisfaction in car washing and detailing.
                             </p>
                             <ul>
                                 <li><i class="far fa-check-circle"></i>Seats washing</li>
@@ -265,7 +252,6 @@
                                 <li><i class="far fa-check-circle"></i>Interior wet cleaning</li>
                                 <li><i class="far fa-check-circle"></i>Window wiping</li>
                             </ul>
-                            <a class="btn btn-custom" href="">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -286,56 +272,56 @@
                         <div class="service-item">
                             <i class="flaticon-car-wash-1"></i>
                             <h3>Exterior Washing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Thorough cleaning of your vehicle’s exterior to remove dirt and ensure a gleaming finish.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-car-wash"></i>
                             <h3>Interior Washing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Deep cleaning of your vehicle's interior, focusing on surfaces, fabrics, and hard-to-reach areas.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-vacuum-cleaner"></i>
                             <h3>Vacuum Cleaning</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Efficient removal of dust and debris from your car’s interior using high-powered vacuums.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-seat"></i>
                             <h3>Seats Washing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Specialized cleaning techniques to refresh and restore your vehicle’s seating upholstery.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-car-service"></i>
                             <h3>Window Wiping</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Streak-free cleaning of windows to enhance visibility and the appearance of your vehicle.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-car-service-2"></i>
                             <h3>Wet Cleaning</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Delicate yet effective cleaning using moisture-controlled techniques to protect sensitive materials.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-car-wash"></i>
                             <h3>Oil Changing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Essential maintenance to replace old engine oil with new, improving your car’s efficiency and longevity.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-brush-1"></i>
-                            <h3>Brake Reparing</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <h3>Brake Repairing</h3>
+                            <p>Comprehensive inspection and repair of brake systems to ensure your safety on the road.</p>
                         </div>
                     </div>
                 </div>
@@ -361,7 +347,7 @@
                         <div class="facts-item">
                             <i class="fa fa-user"></i>
                             <div class="facts-text">
-                                <h3 data-toggle="counter-up">35</h3>
+                                <h3 data-toggle="counter-up">12</h3>
                                 <p>Engineers & Workers</p>
                             </div>
                         </div>
@@ -370,7 +356,7 @@
                         <div class="facts-item">
                             <i class="fa fa-users"></i>
                             <div class="facts-text">
-                                <h3 data-toggle="counter-up">1500</h3>
+                                <h3 data-toggle="counter-up">1520</h3>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
@@ -379,7 +365,7 @@
                         <div class="facts-item">
                             <i class="fa fa-check"></i>
                             <div class="facts-text">
-                                <h3 data-toggle="counter-up">10000</h3>
+                                <h3 data-toggle="counter-up">1520</h3>
                                 <p>Projects Completed</p>
                             </div>
                         </div>
@@ -404,8 +390,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                     <div class="location-text">
                                         <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
+                                        <p>Madagalla Road, Rambe, Maeliya</p>
+                                        <p><strong>Call:</strong>0375566777</p>
                                     </div>
                                 </div>
                             </div>
@@ -414,28 +400,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                     <div class="location-text">
                                         <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="location-item">
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <div class="location-text">
-                                        <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="location-item">
-                                    <i class="fa fa-map-marker-alt"></i>
-                                    <div class="location-text">
-                                        <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
+                                        <p>Dambulla Road, Ibbagamuwa</p>
+                                        <p><strong>Call:</strong>0375566778</p>
                                     </div>
                                 </div>
                             </div>
@@ -463,14 +429,8 @@
                                 <img src="img/team-1.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Donald John</h2>
+                                <h2>Shantha</h2>
                                 <p>Engineer</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -480,14 +440,8 @@
                                 <img src="img/team-2.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Adam Phillips</h2>
+                                <h2>Kalum</h2>
                                 <p>Engineer</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -497,14 +451,8 @@
                                 <img src="img/team-3.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Thomas Olsen</h2>
+                                <h2>Sumith</h2>
                                 <p>Worker</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -514,14 +462,8 @@
                                 <img src="img/team-4.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>James Alien</h2>
+                                <h2>Naleen</h2>
                                 <p>Worker</p>
-                                <div class="team-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
