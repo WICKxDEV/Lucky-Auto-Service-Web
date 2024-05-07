@@ -22,7 +22,7 @@ use App\Http\Controllers\AdminController;
 }); */
 Route::get('/',[HomeController::class,'index']);
 
-Route::get('/home',[HomeController::class,'redirect'])->name('home')->middleware('auth','verified');
+Route::get('/home',[HomeController::class,'redirect'])->name('home');
 
 Route::middleware([
     'auth:sanctum',
@@ -31,7 +31,7 @@ Route::middleware([
 ])->group(function () {
     /* Route::get('/dashboard', function () {
         return view('dashboard');
-    })->name('home'); */
+    })->name('dashboard'); */
     Route::get('/dashboard',[HomeController::class,'redirect'])->name('home');
 }); 
 
@@ -42,24 +42,3 @@ Route::post('/upload_package',[AdminController::class,'upload']);
 Route::post('/appointment',[HomeController::class,'appointment']);
 
 Route::get('/myappointment',[HomeController::class,'myappointment']);
-
-Route::get('/cancel_appointment/{id}',[HomeController::class,'cancel_appointment']);
-
-Route::get('/showappointment',[AdminController::class,'showappointment']);
-
-Route::get('/approved/{id}',[AdminController::class,'approved']);
-
-Route::get('/canceled/{id}',[AdminController::class,'canceled']);
-
-Route::get('/showpackages',[AdminController::class,'showpackages']);
-
-Route::get('/deletepackge/{id}',[AdminController::class,'deletepackge']);
-
-Route::get('/updatepackage/{id}',[AdminController::class,'updatepackage']);
-
-Route::post('/editdoctor/{id}',[AdminController::class,'editdoctor']);
-
-Route::get('/emailview/{id}',[AdminController::class,'emailview']);
-
-Route::post('/sendemail/{id}',[AdminController::class,'sendemail']);
-
