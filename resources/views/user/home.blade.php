@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <title>Lucky Auto Service</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <!-- <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description"> -->
+
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -36,13 +35,6 @@
             cursor: pointer; /* Changes cursor to pointer type */
         }
 
-        /* Adding a custom arrow indicator */
-        /* .form-control.styled-select {
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 4 5"><path fill="black" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-            background-size: 12px;
-        } */
 
         /* Style for the option elements */
         /* Note: Direct styling of option elements is limited and might not work consistently across all browsers. */
@@ -145,10 +137,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Service</a>
-                            <!-- <a href="/price" class="nav-item nav-link">Price</a> -->
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="#" class="nav-item nav-link">About</a>
+                            <a href="#" class="nav-item nav-link">Service</a>
+                            <a href="#" class="nav-item nav-link">Contact</a>
                         </div>
                         
                         @if(Route::has('login'))
@@ -484,40 +475,40 @@
                     <div class="testimonial-item">
                         <img src="img/testimonial-1.jpg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
+                            <h3>Asanka Silva</h3>
+                            <h4>Software developer</h4>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
+                                Their dedication to excellence truly transformed my car, making it look brand new.
                             </p>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <img src="img/testimonial-2.jpg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
+                            <h3>Shakula</h3>
+                            <h4>Creative Profession</h4>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
+                                They handle even the toughest detailing jobs with ease, offering solutions that make a real difference.
                             </p>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <img src="img/testimonial-3.jpg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
+                            <h3>Kavishka</h3>
+                            <h4>Marketing Consultant</h4>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
+                                The quality of their detailing work is outstanding—my car has never looked better!
                             </p>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <img src="img/testimonial-4.jpg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Name</h3>
-                            <h4>Profession</h4>
+                            <h3>Dilsara</h3>
+                            <h4>Real Estate Agent </h4>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor auctor gravid
+                                 A clean, well-maintained car is crucial in my industry, and Lucky Auto Wash always delivers top-notch results.
                             </p>
                         </div>
                     </div>
@@ -537,26 +528,19 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
                             <h2>Get In Touch</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
-                            <div class="footer-social">
-                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                            <p><i class="fa fa-map-marker-alt"></i>Madagalla Road, Rambe, Maeliya</p>
+                            <p><i class="fa fa-phone-alt"></i>0375566777</p>
+                            <p><i class="fa fa-envelope"></i>luckauto@gmail.com</p>                         
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
                             <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Our Service</a>
-                            <a href="">Service Points</a>
-                            <a href="">Pricing Plan</a>
+                            <a href="">Twitter</a>
+                            <a href="">Facebook</a>
+                            <a href="">Youtube</a>
+                            <a href="">Instagram</a>
+                            <a href="">Linkedin</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -582,7 +566,7 @@
                 </div>
             </div>
             <div class="container copyright">
-                <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By <a href="https://htmlcodex.com">WickX</a></p>
+                <p>&copy; <a href="#">Lucky Auto Service</a>, All Right Reserved. Designed By <a href="">Dulmini</a></p>
             </div>
         </div>
         <!-- Footer End -->
@@ -607,7 +591,7 @@
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
+        <!--Javascript -->
         <script src="js/main.js"></script>
     </body>
 </html>

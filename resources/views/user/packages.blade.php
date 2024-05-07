@@ -13,7 +13,7 @@
                         <div class="price-item">
                             <div class="price-header">
                                 <h3>{{$packages->pack_name}}</h3>
-                                <h2><span>$</span><strong>{{$packages->pack_price}}</strong></h2>
+                                <h2><strong>{{$packages->pack_price}}</strong><span  style="font-size: 15px;">LKR</span></h2>
                             </div>
                             <div class="price-body">
                                 <ul>

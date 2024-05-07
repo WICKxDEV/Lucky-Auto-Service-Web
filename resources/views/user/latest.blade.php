@@ -11,21 +11,16 @@
                             <div class="blog-img">
                                 <img src="img/blog-1.jpg" alt="Image">
                                 <div class="meta-date">
-                                    <span>01</span>
+                                    <span>04</span>
                                     <strong>Jan</strong>
-                                    <span>2045</span>
+                                    <span>2024</span>
                                 </div>
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                                <h3><a href="#">Sparkling Results That Delight Our Customers</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc  augue velit metus congue eget semper
+                                    At our car wash, every vehicle receives the personal touch of our dedicated team. Our state-of-the-art equipment and eco-friendly cleaning agents ensure a spotless finish, bringing out the best in your car’s appearance. We focus on every detail, from the rims to the rooftop, ensuring that no speck of dirt remains. Customer satisfaction is paramount, and we strive to exceed expectations with every wash. Experience the difference with us, where your car’s shine is our top priority.
                                 </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-folder"></i><a href="">Web Design</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
                     </div>
@@ -34,21 +29,16 @@
                             <div class="blog-img">
                                 <img src="img/blog-2.jpg" alt="Image">
                                 <div class="meta-date">
-                                    <span>01</span>
+                                    <span>08</span>
                                     <strong>Jan</strong>
-                                    <span>2045</span>
+                                    <span>2024</span>
                                 </div>
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                                <h3><a href="#">Revitalizing Your Ride: Inside and Out</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc  augue velit metus congue eget semper
+                                    Transform your car from ordinary to extraordinary with our comprehensive detailing services. Our skilled technicians meticulously clean and polish your vehicle, ensuring it not only shines on the outside but is hygienically clean on the inside. We treat every vehicle with special care, using premium products that protect and enhance your car's interior and exterior. Let us breathe new life into your ride and make every journey more enjoyable.
                                 </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-folder"></i><a href="">Web Design</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
                     </div>
@@ -57,21 +47,16 @@
                             <div class="blog-img">
                                 <img src="img/blog-3.jpg" alt="Image">
                                 <div class="meta-date">
-                                    <span>01</span>
+                                    <span>10</span>
                                     <strong>Jan</strong>
-                                    <span>2045</span>
+                                    <span>2024</span>
                                 </div>
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                                <h3><a href="#">Eco-Friendly Car Wash: Good for Your Car, Better for the Planet</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc  augue velit metus congue eget semper
+                                    Embrace the green revolution with our eco-friendly car wash services. We use biodegradable shampoos and water-conserving wash techniques that not only deliver impeccable cleanliness but also safeguard the environment. Our commitment to sustainability means that every wash reduces water usage and minimizes chemical runoff. Choose our services for a clean car and a clean conscience, knowing that you are contributing to environmental conservation.
                                 </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                                <p><i class="fa fa-folder"></i><a href="">Web Design</a></p>
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
                             </div>
                         </div>
                     </div>

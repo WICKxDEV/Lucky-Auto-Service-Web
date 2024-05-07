@@ -100,7 +100,8 @@
                         @foreach($data as $package)
                         <tr align="center">
                             <td style="padding: 10px; font-size: 16px;">{{$package->pack_name}}</td>
-                            <td style="padding: 10px; font-size: 16px;">${{$package->pack_price}}</td>
+                            <td style="padding: 10px; font-size: 16px;">{{$package->pack_price}} <span style="font-size: 12px;">LKR</span></td>
+
                             
                             <td >
                                 @if($package->seats_wash)
