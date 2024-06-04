@@ -18,6 +18,7 @@
       @include('admin.navbar')
 
       @include('admin.body')  
+
         <!-- main-panel ends -->
       </div>
       <!-- page-body-wrapper ends -->

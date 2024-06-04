@@ -62,7 +62,7 @@
           /* Class to apply the smooth animation */
           .slideFadeOutUpwardSmooth {
               animation-name: slideFadeOutUpwardSmooth;
-              animation-duration: 3s; /* Adjusts the speed of the animation */
+              animation-duration: 10s; /* Adjusts the speed of the animation */
               animation-fill-mode: forwards; /* Keeps the element in the state of the last keyframe when the animation completes */
               animation-timing-function: ease-in-out; /* Starts and ends the animation slowly, making it smoother */
           } 
@@ -75,10 +75,10 @@
         <div class="top-bar">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="">
+                    <div class="col-lg-4 col-md-12">
                         <div class="logo">
                             <a href="/">
-                                <h1 style=" line-height: 100px; font-weight: 1000; letter-spacing: -1px;  font-family: Arial, sans-serif; font-size: 27px;">Lucky <span>Auto Service</span></h1>
+                                <h1>Lucky <span>Auto Service</span></h1>
                             </a>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
         <div class="nav-bar">
             <div class="container">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">MENU</a>
+                    <a href="/" class="navbar-brand">MENU</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -137,9 +137,9 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="#" class="nav-item nav-link">About</a>
-                            <a href="#" class="nav-item nav-link">Service</a>
-                            <a href="#" class="nav-item nav-link">Contact</a>
+                            <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                            <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                            <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
                         </div>
                         
                         @if(Route::has('login'))
@@ -171,6 +171,11 @@
         @if(session()->has('message'))
         <div class="alert alert-success slideFadeOutUpwardSmooth">
             {{ session()->get('message') }}
+        </div>
+        @endif
+        @if(session()->has('error'))
+        <div class="alert alert-danger slideFadeOutUpwardSmooth">
+            {{ session()->get('error') }}
         </div>
         @endif
         <!-- Carousel Start -->

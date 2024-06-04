@@ -1,3 +1,4 @@
+
 <!-- partial -->
 <div class="main-panel">
           <div class="content-wrapper">
@@ -12,9 +13,11 @@
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="icon icon-box-success ">
-                          <span class="mdi mdi-arrow-top-right icon-item"></span>
-                        </div>
+                        <a class="" href="{{ url('') }}">
+                          <div class="icon icon-box-success ">
+                            <span class="mdi mdi-arrow-top-right icon-item"></span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <h6 class="text-muted font-weight-normal"></h6>
@@ -31,9 +34,11 @@
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="icon icon-box-success ">
-                          <span class="mdi mdi-arrow-top-right icon-item"></span>
-                        </div>
+                        <a class="" href="{{ url('add_package_view') }}">
+                            <div class="icon icon-box-success">
+                                <span class="mdi mdi-arrow-top-right icon-item"></span>
+                            </div>
+                        </a>
                       </div>
                     </div>
                     <h6 class="text-muted font-weight-normal"></h6>
@@ -50,9 +55,11 @@
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="icon icon-box-success ">
-                          <span class="mdi mdi-arrow-top-right icon-item"></span>
-                        </div>
+                        <a class="" href="{{ url('showappointment') }}">
+                          <div class="icon icon-box-success ">
+                            <span class="mdi mdi-arrow-top-right icon-item"></span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <h6 class="text-muted font-weight-normal"></h6>
@@ -69,9 +76,11 @@
                         </div>
                       </div>
                       <div class="col-3">
-                        <div class="icon icon-box-success ">
-                          <span class="mdi mdi-arrow-top-right icon-item"></span>
-                        </div>
+                        <a class="" href="{{ url('showpackages') }}">
+                          <div class="icon icon-box-success ">
+                            <span class="mdi mdi-arrow-top-right icon-item"></span>
+                          </div>
+                        </a>
                       </div>
                     </div>
                     <h6 class="text-muted font-weight-normal"></h6>

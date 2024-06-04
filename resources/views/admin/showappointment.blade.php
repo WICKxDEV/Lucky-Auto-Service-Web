@@ -83,25 +83,32 @@
                     <table>
                         <tr align="center" style="background-color:#202C45">
                             <th style="padding: 10px; font-size: 18px; color:white">User Name</th>
+                            <th style="padding: 10px; font-size: 18px; color:white">Vehicle Number</th>
                             <th style="padding: 10px; font-size: 18px; color:white">Phone Number</th>
                             <th style="padding: 10px; font-size: 18px; color:white">Package</th>
                             <th style="padding: 10px; font-size: 18px; color:white">Status</th>
-                            <th style="padding: 10px; font-size: 18px; color:white">Approved</th>
-                            <th style="padding: 10px; font-size: 18px; color:white">Canceled</th>
-                            <th style="padding: 10px; font-size: 18px; color:white">WhatsApp</th>
+                            <th style="padding: 10px; font-size: 18px; color:white">Date</th>
+                            <th style="padding: 10px; font-size: 18px; color:white">Action</th>
                         </tr>
                         @foreach($data as $appoint)
-                        <tr align="center">
-                            <td style="padding: 10px; font-size: 16px;">{{$appoint->name}}</td>
-                            <td style="padding: 10px; font-size: 16px;">{{$appoint->phone}}</td>
-                            <td style="padding: 10px; font-size: 16px;">{{$appoint->package}}</td>
-                            <td style="padding: 10px; font-size: 16px;">{{$appoint->status}}</td>
-                            <td><a class="btn btn-success" href="{{url('approved',$appoint->id)}}">Approved</a></td>
-                            <td><a class="btn btn-danger" href="{{url('canceled',$appoint->id)}}">Canceled</a></td>
-                            <td>
-                            <a class="btn btn-primary" href="https://wa.me/94{{$appoint->phone}}?text=Hello%2C%20we're%20confirming%20your%20appointment." target="_blank">Send WhatsApp Message</a>
-                            </td>
-                        </tr>
+                          <tr align="center">
+                                  <td style="padding: 10px; font-size: 16px;">{{$appoint->name}}</td>
+                                  <td style="padding: 10px; font-size: 16px;">{{$appoint->numberPlate}}</td>
+                                  <td style="padding: 10px; font-size: 16px;">{{$appoint->phone}}</td>
+                                  <td style="padding: 10px; font-size: 16px;">{{$appoint->package}}</td>
+                                  <td style="padding: 10px; font-size: 16px;">{{$appoint->status}}</td>
+                                  <td style="padding: 10px; font-size: 16px;">{{$appoint->appointmentDate}}</td>
+                                  <td>
+                                      @if($appoint->status == 'Approved')
+                                          <span class="btn btn-success">Approved</span>
+                                      @elseif($appoint->status == 'Canceled')
+                                          <span class="btn btn-danger">Canceled</span>
+                                      @else
+                                          <a class="btn btn-success" href="{{url('approved',$appoint->id)}}">Approve</a>
+                                          <a class="btn btn-danger" href="{{url('canceled',$appoint->id)}}">Cancel</a>
+                                      @endif
+                                  </td>
+                          </tr>
                         @endforeach
                     </table>
                 </div>
@@ -115,6 +122,10 @@
       </div>
       <!-- page-body-wrapper ends -->
     </div>
+    
+
     @include('admin.script')
+
+    
   </body>
 </html>
