@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\package;
 use App\Models\Appointment;
+use Carbon\Carbon;
+
 
 class HomeController extends Controller
 {
@@ -45,21 +47,46 @@ class HomeController extends Controller
 
     public function appointment(Request $request)
     {
-        $data = new appointment;
+        // Validate the incoming request
+        $request->validate([
+            'name' => 'required',
+            'numberPlate' => 'required',
+            'phone' => 'required',
+            'package' => 'required',
+            'appointmentDate' => 'required|date',
+        ]);
 
-        $data->name=$request->name;
-        $data->phone=$request->phone;
-        $data->package=$request->package;
-        $data->status='In Progress';
+        // Concatenate country code with phone number
+        $phoneNumber = $request->input('country_code') . $request->input('phone');
+        // Count approved appointments made today
+        $approvedAppointmentsCount = Appointment::whereDate('created_at', Carbon::today())
+                                                ->where('status', 'Approved')
+                                                ->count();
 
-        if(Auth::id())
-        {
-            $data->user_id=Auth::user()->id;
+        // Check if daily appointment limit (10) for approved appointments has been reached
+        if ($approvedAppointmentsCount >= 10) {
+            // Return some response indicating that the limit has been reached
+            return redirect()->back()->with('error', 'Daily appointment limit reached for approved appointments. Please try again tomorrow.');
+        }
+
+        // Concatenate country code with phone number
+        
+        // If the limit has not been reached, proceed with creating the appointment
+        $data = new Appointment;
+        $data->name = $request->name;
+        $data->numberPlate = $request->numberPlate;
+        $data->phone = $phoneNumber;
+        $data->package = $request->package;
+        $data->appointmentDate = $request->appointmentDate;
+        $data->status = 'In Progress';
+
+        if (Auth::check()) {
+            $data->user_id = Auth::user()->id;
         }
         
         $data->save();
 
-        return redirect()->back()->with('message','Appointment Request Successful. We will contact with you soon');
+        return redirect()->back()->with('message', 'Appointment Request Successful. We will contact with you soon');
     }
 
     public function myappointment()

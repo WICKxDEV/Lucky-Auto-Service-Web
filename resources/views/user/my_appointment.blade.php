@@ -2,10 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Muthugala Auto Service</title>
+        <title>Lucky Auto Service</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <!-- <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description"> -->
+
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -35,14 +34,6 @@
             appearance: none; /* Removes default appearance for IE */
             cursor: pointer; /* Changes cursor to pointer type */
         }
-
-        /* Adding a custom arrow indicator */
-        /* .form-control.styled-select {
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 4 5"><path fill="black" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-            background-size: 12px;
-        } */
 
         /* Style for the option elements */
         /* Note: Direct styling of option elements is limited and might not work consistently across all browsers. */
@@ -86,13 +77,13 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="logo">
                             <a href="index.html">
-                            <h1 style=" line-height: 100px; font-weight: 1000; letter-spacing: -1px;  font-family: Arial, sans-serif; font-size: 27px;">Muthugala <span>Auto Service</span></h1>
+                            <h1 style=" line-height: 100px; font-weight: 1000; letter-spacing: -1px;  font-family: Arial, sans-serif; font-size: 27px;">Lucky <span>Auto Service</span></h1>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-7 d-none d-lg-block">
                         <div class="row">
-                            <div class="col-4">
+                        <div class="col-4">
                                 <div class="top-bar-item">
                                     <div class="top-bar-icon">
                                         <i class="far fa-clock"></i>
@@ -110,7 +101,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Call Us</h3>
-                                        <p>+012 345 6789</p>
+                                        <p>0375566777</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +112,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@example.com</p>
+                                        <p>luckauto@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -145,19 +136,8 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
                             <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Service</a>
-                            <a href="price.html" class="nav-item nav-link">Price</a>
-                            <a href="location.html" class="nav-item nav-link">Washing Points</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu">
-                                    <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                    <a href="single.html" class="dropdown-item">Detail Page</a>
-                                    <a href="team.html" class="dropdown-item">Team Member</a>
-                                    <a href="booking.html" class="dropdown-item">Schedule Booking</a>
-                                </div>
-                            </div>
+                            <a href="" class="nav-item nav-link">About</a>
+                            <a href="" class="nav-item nav-link">Service</a>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                         
@@ -221,26 +201,19 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-contact">
                             <h2>Get In Touch</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
-                            <div class="footer-social">
-                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                            <p><i class="fa fa-map-marker-alt"></i>Madagalla Road, Rambe, Maeliya</p>
+                            <p><i class="fa fa-phone-alt"></i>0375566777</p>
+                            <p><i class="fa fa-envelope"></i>luckauto@gmail.com</p>                         
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-link">
                             <h2>Popular Links</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Our Service</a>
-                            <a href="">Service Points</a>
-                            <a href="">Pricing Plan</a>
+                            <a href="">Twitter</a>
+                            <a href="">Facebook</a>
+                            <a href="">Youtube</a>
+                            <a href="">Instagram</a>
+                            <a href="">Linkedin</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -266,7 +239,7 @@
                 </div>
             </div>
             <div class="container copyright">
-                <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved. Designed By <a href="https://htmlcodex.com">WickX</a></p>
+                <p>&copy; <a href="#">Lucky Auto Service</a>, All Right Reserved. Designed By <a href="">Dulmini</a></p>
             </div>
         </div>
         <!-- Footer End -->
@@ -291,7 +264,7 @@
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
+        <!-- Javascript -->
         <script src="js/main.js"></script>
     </body>
 </html>

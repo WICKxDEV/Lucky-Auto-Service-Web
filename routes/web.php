@@ -63,3 +63,21 @@ Route::get('/emailview/{id}',[AdminController::class,'emailview']);
 
 Route::post('/sendemail/{id}',[AdminController::class,'sendemail']);
 
+Route::get('/dashboard', [AdminController::class, 'showappointmentstatus'])->name('admin.showappointmentstatus');
+
+
+
+
+Route::get('/about', function () {
+    return view('user.about');
+})->name('about');
+
+Route::get('/contact', function () {
+    return view('user.contact');
+})->name('contact');
+
+Route::get('/service', function () {
+    return view('user.service');
+})->name('service');
+
+

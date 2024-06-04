@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('package')->nullable();
             $table->string('status')->nullable();
+            $table->string('appointmentDate')->nullable();
             $table->string('user_id')->nullable();
             $table->timestamps();
         });
