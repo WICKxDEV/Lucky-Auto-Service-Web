@@ -1,10 +1,10 @@
 <x-guest-layout>
     <x-authentication-card>
         <a href="index.html">
-            <h1 style="  font-weight: 550;  font-family: Arial, sans-serif; font-size: 20px;">  Muthugal Auto Service Registation Form</h1><br>
+            <h1 style="  font-weight: 550;  font-family: Arial, sans-serif; font-size: 20px;">  Lucky Auto Service Registation Form</h1><br>
         </a>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <img src="{{ asset('img/luckylogo.png') }}" alt="Logo" style="width: 400px; height: auto;">
         </x-slot>
 
         <x-validation-errors class="mb-4" />

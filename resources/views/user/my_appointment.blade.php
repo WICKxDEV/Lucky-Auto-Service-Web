@@ -135,17 +135,17 @@
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto">
-                            <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="" class="nav-item nav-link">About</a>
-                            <a href="" class="nav-item nav-link">Service</a>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="/" class="nav-item nav-link ">Home</a>
+                            <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+                            <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                            <a href="{{ route('contact') }}" class="nav-item nav-link ">Contact</a>
                         </div>
                         
                         @if(Route::has('login'))
 
                         @auth
                         <div class="navbar-nav mr-auto">
-                        <a href="{{'myappointment'}}"  class="nav-item nav-link">Appointments</a>
+                        <a href="{{'myappointment'}}"  class="nav-item nav-link active">Appointments</a>
                         </div>
 
                         <x-app-layout>
@@ -173,6 +173,7 @@
                     <th style="padding: 10px; font-size: 18px; color:white">User Name</th>
                     <th style="padding: 10px; font-size: 18px; color:white">Phone Number</th>
                     <th style="padding: 10px; font-size: 18px; color:white">Package</th>
+                    <th style="padding: 10px; font-size: 18px; color:white">Date</th>
                     <th style="padding: 10px; font-size: 18px; color:white">Status</th>
                     <th style="padding: 10px; font-size: 18px; color:white">Action</th>
                 </tr>
@@ -183,6 +184,7 @@
                     <td style="padding: 10px; font-size: 16px;">{{$appoints->name}}</td>
                     <td style="padding: 10px; font-size: 16px;">{{$appoints->phone}}</td>
                     <td style="padding: 10px; font-size: 16px;">{{$appoints->package}}</td>
+                    <td style="padding: 10px; font-size: 16px;">{{$appoints->appointmentDate}}</td>
                     <td style="padding: 10px; font-size: 16px;">{{$appoints->status}}</td>
                     <td style="padding: 10px; font-size: 16px;"> <a class="btn btn-custom" onclick="return confirm('are you sure you want to delete this?')" href="{{url('cancel_appointment',$appoints->id)}}">Cancel</a></td>
                 </tr>
