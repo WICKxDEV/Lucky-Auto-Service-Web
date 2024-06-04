@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Notification;
 
 use App\Notifications\SendEmailNotification;
 
+use Twilio\Rest\Client;
+
 
 class AdminController extends Controller
 {
@@ -75,11 +77,25 @@ class AdminController extends Controller
 
     public function approved($id)
     {
-         $data=appointment::find($id);
-         $data->status='Approved';
-         $data->save();
-        return redirect()->back();
+        // Find the appointment by its ID
+        $data = Appointment::find($id);
+
+        // Update the status to "Approved"
+        $data->status = 'Approved';
+        $data->save();
+
+        // Construct the WhatsApp message
+        $phoneNumber = $data->phone; // Get the phone number
+        $message = "Your appointment has been approved."; // Message content
+        $encodedMessage = urlencode($message); // Encode the message
+
+        // Construct the WhatsApp URL
+        $whatsappUrl = "https://api.whatsapp.com/send?phone={$phoneNumber}&text={$encodedMessage}";
+
+        // Return a redirect to the WhatsApp URL
+        return redirect($whatsappUrl);
     }
+
 
     public function canceled($id)
     {
@@ -148,4 +164,26 @@ class AdminController extends Controller
     
         return redirect()->back()->with('message','Email send is Successfully');
     }
+
+    public function showappointmentstatus()
+    {
+        if(Auth::id())
+        {
+            if(Auth::user()->usertype==1)
+            {
+                $data=appointment::all();
+                return view('admin.showappointmentstatus',compact('data'));
+            }
+            else
+            {
+                return redirect()->back();
+            }
+        }
+        else
+        {
+            return redirect('login');
+        }
+        
+    }
+    
 }
