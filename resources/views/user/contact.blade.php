@@ -329,7 +329,7 @@
             <div class="container copyright">
                 <p>
                     &copy; <a href="#">Lucky Auto Service</a>, All Right
-                    Reserved. Designed By <a href="">Dulmini</a>
+                    Reserved. Designed By <a href="">WICKxDEV</a>
                 </p>
             </div>
         </div>
